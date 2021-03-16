@@ -9,7 +9,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-
     var listOfPrimerNumbers = mutableListOf<Int>(
         2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
         41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83,
@@ -56,11 +55,9 @@ class MainActivity : AppCompatActivity() {
 
         println("result: $multi")
     }
+
     var currentNumber = 13195
+
     find()
     verifyPrimeNumbers()
-
-
-
-
 }
